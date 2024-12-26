@@ -1,0 +1,201 @@
+/* General Styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    color: rgb(28, 44, 216);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(to right, rgb(101, 194, 161), rgb(90, 169, 233));
+}
+
+/* Header */
+.header {
+    background: linear-gradient(to right, rgb(213, 97, 226), rgb(189, 13, 42));
+    color: #fff;
+    padding: 1em 0;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo {
+    font-size: 1.8em;
+    font-family: cursive;
+}
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+nav a:hover {
+    background-color: #39c1ee;
+    color: rgb(2, 1, 17);
+    transform: scale(1.1); /* Slightly scale up */
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, rgb(240, 34, 34), rgb(235, 144, 159));
+    text-align: center;
+    padding: 2em 0;
+    color: #fff;
+}
+.hero h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+/* Blog Section */
+.blog {
+    padding: 2em 0;
+}
+.blog .container {
+    max-width: 1200px;
+    margin: auto;
+}
+.blog h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+.posts {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.post {
+    background: #f0d9d9;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 300px;
+    text-align: center;
+}
+.post img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.post h3 a {
+    text-decoration: none;
+    color: #333;
+}
+.post p {
+    margin-top: 0.5em;
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(to right, orange, pink);
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+.profile-img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 90%;
+    border: 3px solid #f4a261;
+    object-fit: fill;
+}
+.about1 {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.bio {
+    max-width: 600px;
+}
+.container1 {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color: #877c7c;
+}
+.about-content1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.about-us-section {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 1000px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-us-section h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-us-section p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    font-size: 1.5em;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0073e6;
+}
+
+.social-icons a.linkedin {
+    color: #0077b5;
+}
+
+.social-icons a.twitter {
+    color: #1da1f2;
+}
+
+.social-icons a.whatsapp {
+    color: #25d366;
+}
+
+.social-icons a.linkedin:hover {
+    color: #005682;
+}
+
+.social-icons a.twitter:hover {
+    color: #0d95e8;
+}
+
+.social-icons a.whatsapp:hover {
+    color: #128c7e;
+}
